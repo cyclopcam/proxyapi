@@ -1,4 +1,4 @@
-package proxymsg
+package proxyapi
 
 // Register your server with the proxy
 type RegisterJSON struct {
