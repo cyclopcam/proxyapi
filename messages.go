@@ -19,8 +19,8 @@ type RemoveJSON struct {
 	PublicKey string `json:"publicKey"`
 }
 
-// Set the symmetric key of a cyclops box
-type SymmetricKeySetJSON struct {
-	PublicKey    string `json:"publicKey"`    // The public key of the cyclops box that this symmetric key is for
-	SymmetricKey string `json:"symmetricKey"` // The symmetric key itself
+// Set the preshared key of a cyclops box
+type PresharedKeySetJSON struct {
+	PublicKey    string `json:"publicKey"`    // The public key of the cyclops box that this preshared key is for
+	PresharedKey string `json:"presharedKey"` // The preshared key itself
 }
